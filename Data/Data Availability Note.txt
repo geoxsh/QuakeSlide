@@ -1,0 +1,13 @@
+Data Availability Note
+
+The following directories contain large datasets that are not hosted in this repository due to file size limitations:
+- Data/DEM/
+- Data/Global cities/
+- Data/Global ocean boundary/
+- Data/Landform/
+- Data/Lithology/
+- Data/Population density/
+- Data/River network/
+- Data/Slope/
+
+Their sources are cited in the accompanying manuscript. To request the data, please contact Shihao Xiao.
