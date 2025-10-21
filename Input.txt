@@ -1,0 +1,63 @@
+# QuakeSlide input
+============================define paths to files============================
+# (GlobalSlopeFile)
+Data/Slope/dtm_slope_merit.dem_m_250m_s0..0cm_2018_v1.0.tif
+# (GlobalLandformFile)
+Data/Landform/dtm_geom_merit.dem_m_250m_s0..0cm_2018_v1.0.tif
+# (GlobalLithologyFile)
+Data/Lithology/LiMW_GIS 2015.gdb
+# (GlobalOceanBoundaryFile)
+Data/Global ocean boundary/simplified-water-polygons-split-3857/simplified_water_polygons.shp
+# (GlobalPopulationDensityFile)
+Data/Population density/gpw-v4-population-density_2020.tif
+# (GlobalRiverNetwork)
+Data/River network/HydroRIVERS_v10_processed/HydroRIVERS_v10_dischargelargerthan1_riverorderlargerthen2.shp
+# (GlobalDEMFile)
+Data/DEM/Median-md75_grd tif/Median-md75_grd.tif
+# (GlobalCityFile)
+Data/Global cities/worldcities/worldcities.csv
+
+
+
+# (PGAThreshold) # unit:g
+0.1
+# (SlopeThreshold) # unit:degree
+6.0
+# (IS_save_PointMappingUnit) # True or False
+False
+# (IS_LS_PolygonAvailable) # True or False
+False
+# (IS_rectangle_boundary) # True or False
+False
+
+
+
+# (LSIntensityModelFile)
+Model/GAM_model_20250409.pkl
+# (SelectedModelFeatureFile)
+Model/GAM_model_features_20250409.pkl
+# (FeatureLabelEncodersFile)
+Model/GAM_model_label_encoders_20250409.pkl
+
+
+# (log_size_mean)
+7.511
+# (log_size_std)
+1.1817
+# (sigma_ln_lambda)
+0.861
+# (mu_mu_ln_lambda) #0.476
+0
+# (sigma_mu_ln_lambda)
+1.433
+# (area_percentage_threshold) #0.3
+1
+# (count_threshold)
+10
+# (n_inter_event_simulations)
+100
+# (n_intra_event_simulations)
+6
+
+# (buffer_LS_runout)
+93.6
