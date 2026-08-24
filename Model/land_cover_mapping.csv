@@ -1,0 +1,22 @@
+raw_value,mapped_value,mapped_label
+0,other,Other
+20,shrubs,Shrubs
+30,grassland,Grassland
+40,cropland,Cropland
+50,urban,Urban
+60,bare_land,Bare land
+70,other,Other
+90,wetland,Wetland
+100,grassland,Grassland
+111,forest,Forest
+112,forest,Forest
+113,forest,Forest
+114,forest,Forest
+115,forest,Forest
+116,forest,Forest
+121,forest,Forest
+122,forest,Forest
+123,forest,Forest
+124,forest,Forest
+125,forest,Forest
+126,forest,Forest

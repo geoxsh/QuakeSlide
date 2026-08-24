@@ -1,0 +1,17 @@
+raw_value,mapped_value,raw_label,mapped_label
+su,su,Unconsolidated Sediments,Unconsolidated Sediments
+ss,ss,Siliciclastic Sedimentary Rocks,Siliciclastic Sedimentary Rocks
+sm,sm,Mixed Sedimentary Rocks,Mixed Sedimentary Rocks
+sc,sc,Carbonate Sedimentary Rocks,Carbonate Sedimentary Rocks
+py,Volcanic,Pyroclastic,Volcanic Rocks
+va,Volcanic,Acid Volcanic Rocks,Volcanic Rocks
+vi,Volcanic,Intermediate Volcanic Rocks,Volcanic Rocks
+vb,Volcanic,Basic Volcanic Rocks,Volcanic Rocks
+pa,Plutonic,Acid Plutonic Rocks,Plutonic Rocks
+pi,Plutonic,Intermediate Plutonic Rocks,Plutonic Rocks
+pb,Plutonic,Basic Plutonic Rocks,Plutonic Rocks
+mt,Other,Metamorphic Rocks,Other
+nd,Other,No Data,Other
+ig,Other,Ice and Glaciers,Other
+ev,Other,Evaporites,Other
+wb,,Water Bodies,

@@ -1,0 +1,49 @@
+QuakeSlide Data Availability
+
+The static global datasets required by QuakeSlide are not included in this
+repository because of their size and third-party distribution terms. Download
+each dataset from its official source and place it in the directory shown
+below. The expected paths are also defined in Input.txt.
+
+Data/DEM/
+  Dataset: GMTED2010 global elevation data
+  Source: https://topotools.cr.usgs.gov/gmted_viewer/gmted2010_global_grids.php
+  Expected file: Median-md75_grd tif/Median-md75_grd.tif
+
+Data/Global cities/
+  Dataset: World Cities Database
+  Source: https://www.kaggle.com/datasets/viswanathanc/world-cities-datasets
+  Expected file: worldcities/worldcities.csv
+
+Data/Global ocean boundary/
+  Dataset: OpenStreetMap water polygons
+  Source: https://osmdata.openstreetmap.de/data/water-polygons.html
+  Expected file: simplified-water-polygons-split-3857/simplified_water_polygons.shp
+
+Data/land cover-Copernicus LC100/
+  Dataset: Copernicus Global Land Cover 100 m, Collection 3
+  Source: https://zenodo.org/records/3939050
+  Expected file: PROBAV_LC100_global_v3.0.1_2019-nrt_Discrete-Classification-map_EPSG-4326.tif
+
+Data/Lithology/
+  Dataset: Global Lithological Map (GLiM)
+  Source: https://www.geo.uni-hamburg.de/en/geologie/forschung/aquatische-geochemie/glim.html
+  Expected file: LiMW_GIS 2015.gdb
+
+Data/Population density/
+  Dataset: Gridded Population of the World, Version 4 (GPWv4)
+  Source: https://sedac.ciesin.columbia.edu/data/collection/gpw-v4
+  Expected file: gpw-v4-population-density_2020.tif
+
+Data/River network/
+  Dataset: HydroRIVERS
+  Source: https://www.hydrosheds.org/products/hydrorivers
+  Expected file: HydroRIVERS_v10_processed/HydroRIVERS_v10_dischargelargerthan1_riverorderlargerthen2.shp
+
+Data/Slope/
+  Dataset: Geomorpho90m slope data
+  Source: https://doi.org/10.1594/PANGAEA.899135
+  Expected file: dtm_slope_merit.dem_m_250m_s0..0cm_2018_v1.0.tif
+
+Users are responsible for complying with the licence and citation requirements
+of each source dataset. See README.md for configuration and usage instructions.
