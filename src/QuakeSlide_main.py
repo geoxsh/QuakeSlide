@@ -57,7 +57,8 @@ def QuakeSlide(event_id=None,
                road_network_data=None,
                custom_pga_file=None,
                custom_pgv_file=None,
-               composite_event_ids=None):
+               composite_event_ids=None,
+               input_file_path="Input.txt"):
     """
     Main QuakeSlide HBM workflow.
 
@@ -165,7 +166,7 @@ def QuakeSlide(event_id=None,
     start_time = time.time()
 
     with workflow_step(1, 8, "Configuration: loading Input.txt"):
-        input_path, output_path = define_file_path("Input.txt", run_id)
+        input_path, output_path = define_file_path(input_file_path, run_id)
         if input_path is None:
             raise FileNotFoundError("Input.txt not found or failed to parse.")
 

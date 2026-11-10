@@ -268,7 +268,9 @@ def preload_data(event_id, input_path, output_path,
     # Lithology (Global Lithological Map – GLiM)
     # Auto-cached as GeoParquet on first load for fast re-reads.
     # ------------------------------------------------------------------
-    lith_parquet = pathlib.Path(input_path['GlobalLithologyFile']).parent / 'lithology_cached.parquet'
+    lith_source = pathlib.Path(input_path['GlobalLithologyFile'])
+    lith_parquet = (lith_source if lith_source.suffix == '.parquet'
+                    else lith_source.parent / 'lithology_cached.parquet')
 
     if lithology_data is None:
         if lith_parquet.exists():

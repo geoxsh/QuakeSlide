@@ -1,0 +1,55 @@
+# QuakeSlide input
+============================define paths to files============================
+# (GlobalSlopeFile)
+demo/data/slope.tif
+# (GlobalLithologyFile)
+demo/data/lithology.parquet
+# (GlobalLC100File)
+demo/data/land_cover.tif
+# (GlobalOceanBoundaryFile)
+demo/data/ocean.gpkg
+# (GlobalPopulationDensityFile)
+demo/data/population.tif
+# (GlobalRiverNetwork)
+demo/data/rivers.gpkg
+# (GlobalDEMFile)
+demo/data/dem.tif
+# (GlobalCityFile)
+demo/data/cities.csv
+
+
+
+# (PGAThreshold) # unit:g
+0.1
+# (SlopeThreshold) # unit:degree
+6.0
+# (IS_save_PointMappingUnit) # True or False
+False
+# (LandslideInventoryFile) # optional observed landslide vector file; use None if unavailable
+None
+# (IS_rectangle_boundary) # True or False
+False
+
+
+
+============================HBM model files============================
+# (CountModelFile)
+Model/ZIP_count_model.rds
+# (ArealCoverageModelFile)
+Model/ZOIB_areal_coverage_model.rds
+# (StdParamsFile)   standardization parameters (JSON)
+Model/std_params.json
+# (RscriptExe)
+C:\Program Files\R\R-4.2.2\bin\Rscript.exe
+# (N_DRAWS)   posterior draws for both count and areal coverage models
+20
+# (CountBatchSize)
+40000
+# (ArealCoverageBatchSize)
+40000
+
+
+
+============================impact assessment============================
+# (buffer_LS_runout)   unit: m
+133.8

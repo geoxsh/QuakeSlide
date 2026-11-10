@@ -3,7 +3,7 @@
 **Near-real-time forecasting of earthquake-triggered landslide hazards and impacts**
 
 Author: Shihao Xiao  
-Contact: sxiaoai@connect.ust.hk  
+Contact: sxiaoai@connect.ust.hk
 Date: August 2026
 
 QuakeSlide is an end-to-end tool designed to assess the earthquake-triggered landslide hazards and impacts in near-real-time. It provides functionalities for earthquake event search, landslide hazard and impact prediction, uncertainty quantification, and report generation.
@@ -63,6 +63,13 @@ Static global dataset paths and model paths are also defined in `Input.txt`.
 ## Usage
 
 The simplest way to run QuakeSlide is through `QuakeSlide.ipynb`.
+
+The notebook has four sections:
+
+1. **Search for earthquake events:** Find USGS event IDs.
+2. **Single-earthquake assessment:** Run the full workflow for one event ID.
+3. **Composite-earthquake assessment:** Combine ShakeMaps from multiple events and run one assessment.
+4. **Demo:** Run an example for the 5 August 2018 Mw 6.9 earthquake using the cropped data in `demo/data/` (see `demo/README.md`).
 
 ### Single earthquake
 
@@ -153,9 +160,7 @@ QuakeSlide/
 ```
 
 The large datasets inside `Data/` are not distributed with the repository; see
-`Data/Data Availability Note.txt` for download sources. `Results/`, Python bytecode
-(`__pycache__/` and `*.pyc`) and local backup copies are runtime or development
-artifacts and are not part of the source distribution.
+`Data/Data Availability Note.txt` for download sources. 
 
 ## License
 
