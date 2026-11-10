@@ -3,7 +3,7 @@
 **Near-real-time forecasting of earthquake-triggered landslide hazards and impacts**
 
 Author: Shihao Xiao  
-Contact: sxiaoai@connect.ust.hk
+Contact: sxiaoai@connect.ust.hk  
 Date: August 2026
 
 QuakeSlide is an end-to-end tool designed to assess the earthquake-triggered landslide hazards and impacts in near-real-time. It provides functionalities for earthquake event search, landslide hazard and impact prediction, uncertainty quantification, and report generation.
